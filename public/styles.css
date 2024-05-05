@@ -95,3 +95,20 @@ form button {
   cursor: pointer;
   outline: none;
 }
+
+.auth-button {
+  background-color: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease;
+}
+
+.auth-button:hover {
+  background-color: #e09e12;
+}
